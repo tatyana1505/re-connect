@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Re-Connect",
+    "description": "An app for family group and events.",
+    "slug": "re-connect",
+    "privacy": "public",
+    "sdkVersion": "28.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "primaryColor": "#ef8b61",
+    "facebookAppId": "606516469722580",
+    "facebookDisplayName": "Re Connect",
+    "facebookScheme": "fb606516469722580",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ec6b33",
+      "image": "./assets/images/splash.png"
+    },
+    "android": {
+      "package": "com.reconnect.app",
+      "versionCode": 1,
+      "permissions": [],
+      "config": {
+        "googleSignIn" : {
+          "apiKey": "AIzaSyCh1BJoVDdPHlmK47-6lbkL42w2skGaHBY",
+          "certificateHash": "67B9A9EB5921D5D9EFF3F6F1C4E117BCFCFF14EA"
+        }
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 5000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.reconnect.app",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleSignIn" : {
+          "reservedClientId": "com.googleusercontent.apps.680237154385-eojnpng4l6nn0msfmfjmluucdq290uvs"
+        }
+      }
+    }
+  }
+}
